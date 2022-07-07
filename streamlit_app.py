@@ -1,5 +1,6 @@
 import os
-os.system('pip install colabcode >/dev/null 2>&1')
-os.system('from colabcode import ColabCode')
-os.system('authtoken =26l8aVD6572mvZJVKTGA2YOM7GQ_2e2F4XzBkLkTK5gmGXC84')
-os.system('ColabCode(password="001" ,authtoken=authtoken')
+os.system('pip install jupyterlab && npm i -g localtunnel')
+os.system('rm /root/.jupyter/jupyter_lab_config.py -Rf')
+os.system('jupyter-lab --generate-config)
+os.system('echo "c.NotebookApp.allow_remote_access = True" >> /root/.jupyter/jupyter_lab_config.py')
+os.system('jupyter-lab --allow-root --no-browser --port 10000 & lt --port 10000')
